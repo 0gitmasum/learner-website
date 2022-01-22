@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 600px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width h1{
+    font-size: xx-large;
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width p{
+    padding-bottom: 20px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.half-width img{
+    width: 100%;
+}
+.mid-banner{
+    background-image: url(images/mid-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.mid-width img{
+    width: 100%;
+}
+.mid-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-color: white;
+}
+.mid-width p{
+    padding-bottom: 20px;
+}
+.mid-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, orange, green);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.experi-area{
+    background-image: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-ex{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 6px;
+    height: 70%;
+    background-color: white;
+}
+footer p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
